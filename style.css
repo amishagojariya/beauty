@@ -346,6 +346,7 @@ main .more-info .infor{
 main .appointment{
   width: 100%;
   background-color:#580303ac;
+  padding: 30px;
 }
 main .appointment .letter{
   width: 60%;
@@ -378,6 +379,7 @@ color: #fffefec4;
 footer .contact-us{
   width: 100%;
   background-color: #58030380;
+  padding: 30px;
 }
 
 .contact-us .contact-info{
@@ -385,22 +387,40 @@ footer .contact-us{
   align-items: center;
   width: 60%;
   margin: 0px auto;
-  gap: 20px;
-  color: #350202ee;
+  gap: 30px;
+  color: #ffffffce;
+  background-color: #ffffff8e;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 20px;
 }
 
 .contact-info .icons{
-  background-color: rgba(255, 255, 255, 0.664);
+  background-color: #410303e3;
   display: flex;
   gap: 20px;
   padding: 10px;
+  font-size: 30px;
+  color: #d4a7a7e5;
+
 }
 
-co .icon .information{
+.icon .information{
   display: flex;
-  gap: 20px;
-  background-color: white;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #4d0303c4;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+.icon p{
+  background-color: #410303d0;
+  padding: 5px;
+  
+}
+.contact-info .media{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
